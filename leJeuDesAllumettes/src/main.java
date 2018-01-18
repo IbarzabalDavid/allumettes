@@ -69,7 +69,7 @@ public class main {
                     else {
                         choix=(nbAllu-1)%4;
                         if (choix==0){
-                            choix=2;
+                            choix=(int)(Math.random()*3+1);
                         }
                         System.out.println(j2+" retire "+choix+" allumette(s)");
                     }
